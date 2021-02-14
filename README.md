@@ -1,5 +1,7 @@
 # Unit-19-Blockchain-with-Python
 
+![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
+
 ## Background
 
 Your new startup is focusing on building a portfolio management system that supports not only traditional assets
@@ -45,6 +47,9 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 - Create a file called `wallet.py` -- this will be your universal wallet script.
 
+Your directory tree should look something like this:
+
+![directory-tree](Images/tree.png)
 
 ### Setup constants
 
@@ -78,7 +83,9 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 - You should wrap all of this into one function, called `derive_wallets`
 
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
-  When done properly.
+  When done properly, the final object should look something like this (there are only 3 children each in this image):
+  
+  ![wallet-object](Images/wallet-object.png)
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -146,6 +153,9 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Send a transaction to another testnet address (either one of your own, or the faucet's).
 
+- Screenshot the confirmation of the transaction like so:
+
+![btc-test](Images/btc-test.png)
 
 #### Local PoA Ethereum transaction
 
@@ -168,6 +178,9 @@ w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
   or one of the `node` keystore files.
 
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
+  MyCrypto's TX Status, and screenshot the successful transaction like so:
+
+![eth-test](Images/eth-test.png)
 
 ### Submission
 

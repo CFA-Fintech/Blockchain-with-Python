@@ -182,20 +182,7 @@ w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
 
 ![eth-test](Images/eth-test.png)
 
-### Submission
 
-- Create a `README.md` that contains the test transaction screenshots, as well as the code used to send them.
-  Pair the screenshot with the line(s) of code.
-
-- Write a short description about what the wallet does, what is is built with, and how to use it.
-
-- Include installing pip dependencies using `requirements.txt`, as well as cloning and installing `hd-wallet-derive`.
-  You may include the `hd-wallet-derive` folder in your repo, but still include the install instructions. You do not
-  need to include Python or PHP installation instructions.
-
-- Upload the project to a new GitHub repository.
-
-- Celebrate the fact that you now have an incredibly powerful wallet that you can expand to hundreds of coins!
 
 ### Challenge Mode
 
